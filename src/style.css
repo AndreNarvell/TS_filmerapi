@@ -1,0 +1,59 @@
+* {
+  color: aliceblue;
+  background-color: #1d1d1e;
+}
+
+div {
+  margin: 1rem;
+  min-width: 20rem;
+}
+
+img {
+  display: block;
+  /* padding: 1rem; */
+  margin-bottom: 10rem;
+  position: absolute;
+  bottom: 0;
+  min-width: 10rem;
+  filter: drop-shadow(30px 20px 10px #131313);
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: auto;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+input {
+  border-color: white;
+  border-radius: 10rem;
+  text-indent: 10px;
+  filter: drop-shadow(10px 10px 5px #131313);
+}
+
+button {
+  border-color: white;
+  border-radius: 10rem;
+  margin-left: 1rem;
+  filter: drop-shadow(10px 10px 5px #131313);
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
