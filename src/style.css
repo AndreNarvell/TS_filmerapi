@@ -9,11 +9,9 @@ div {
 }
 
 img {
-  display: block;
-  /* padding: 1rem; */
-  margin-bottom: 10rem;
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5rem;
   min-width: 10rem;
   filter: drop-shadow(30px 20px 10px #131313);
   transition: transform 0.2s;
@@ -26,6 +24,7 @@ img:hover {
 
 h2 {
   text-align: center;
+  width: 100%;
 }
 
 h3 {
@@ -56,4 +55,19 @@ button {
 button:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+section {
+  overflow-x: hidden;
+  display: flex;
+}
+
+#movieContainer {
+  display: flex;
+}
+
+.divMovie {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

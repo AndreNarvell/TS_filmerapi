@@ -11,7 +11,9 @@ export class MovieService implements IMovie {
     console.log(this.title);
 
     return fetch(
-      "http://www.omdbapi.com/?i=tt3896198&apikey=97fb0efc&s=" + this.title
+      "http://www.omdbapi.com/?i=tt3896198&apikey=97fb0efc&s=" +
+        this.title +
+        "&type=movie"
     )
       .then((response) => response.json())
       .then((data) => {
